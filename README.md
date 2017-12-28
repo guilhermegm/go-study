@@ -25,3 +25,11 @@ Code:
 - Hello world
 - Fibonacci
 
+### Lesson 2
+
+Articles:
+- https://golangbot.com (part 7 ~ 17)
+- https://hackernoon.com/golang-clean-archithecture-efd6d7c43047
+
+Code:
+- Shopping Cart
