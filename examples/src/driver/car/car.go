@@ -3,6 +3,7 @@ package car
 import (
 	"fmt"
 	"driver/vehicle"
+	"driver/errors"
 )
 
 type Car struct {
@@ -15,7 +16,12 @@ func New() vehicle.VehicleInterface {
 	}
 }
 
-func (car *Car) MoveFoward(speed int) {
+func (car *Car) MoveFoward(speed int) (bool, error) {
+	if (speed > car.maxSpeed) {
+		return false, errors.New("Your car is too fast")
+	}
+
 	fmt.Println("Car is moving foward", speed)
+	return true, nil
 } 
 

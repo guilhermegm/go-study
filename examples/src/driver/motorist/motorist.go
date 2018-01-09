@@ -6,6 +6,10 @@ import (
 )
 
 func Drive(vehicle vehicle.VehicleInterface, speed int) {
-	vehicle.MoveFoward(speed)
+	_, err := vehicle.MoveFoward(speed)
+	if (err != nil) {
+		fmt.Println(err)
+		return
+	}
 	fmt.Println("Motorist is driving")
 }

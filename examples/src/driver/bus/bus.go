@@ -15,7 +15,8 @@ func New() vehicle.VehicleInterface {
 	}
 }
 
-func (bus *Bus) MoveFoward(speed int) {
+func (bus *Bus) MoveFoward(speed int) (bool, error) {
 	fmt.Println("Bus is moving foward", speed)
+	return true, nil
 } 
 
