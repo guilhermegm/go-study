@@ -6,6 +6,7 @@ import (
 )
 
 
+
 func outraGoRoutine() {
 	for {
 		fmt.Println("Vandinho")
@@ -32,6 +33,7 @@ func main() {
 
 	go sender(exampleChannel)
 	go printer(exampleChannel)
+
 	go outraGoRoutine()
 
 	var input string
