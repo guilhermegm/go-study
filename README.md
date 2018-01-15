@@ -33,3 +33,16 @@ Articles:
 
 Code:
 - Shopping Cart
+
+
+### Lesson 3
+
+Articles:
+- http://tleyden.github.io/blog/2014/10/30/goroutines-vs-threads/
+- https://medium.com/@xenonstack/understanding-dependency-management-and-package-management-in-golang-45ea0c319018
+- https://github.com/golang/go/wiki/PackageManagementTools
+
+Code:
+- Driver
+- Parallelism
+
