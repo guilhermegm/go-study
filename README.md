@@ -46,3 +46,8 @@ Code:
 - Driver
 - Parallelism
 
+### Lesson 4
+
+Articles:
+- https://github.com/golang/dep
+- https://hackernoon.com/golang-clean-archithecture-efd6d7c43047
